@@ -1,0 +1,4 @@
+arsitektur CNN terlalu sederhana untuk dataset gambar yang kompleks sehingga akurasi bisa rendah, 
+jumlah epoch training sedikit sehingga model kurang belajar, dan tidak ada evaluasi hasil training selain akurasi. Selain itu, 
+integrasi dengan OpenCV hanya menampilkan prediksi tanpa ada mekanisme optimasi atau pengolahan lebih lanjut, 
+sehingga performanya di real-time kemungkinan kurang stabil dan gampang salah klasifikasi.
